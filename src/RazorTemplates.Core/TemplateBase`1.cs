@@ -7,8 +7,7 @@ namespace RazorTemplates.Core
     /// </summary>
     public abstract class TemplateBase<TModel> : TemplateBase
     {
-        private readonly StringBuilder _buffer = new StringBuilder();
-
+       
         /// <summary>
         /// Gets or sets dynamic model which data should be rendered.
         /// </summary>
